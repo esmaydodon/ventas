@@ -215,7 +215,18 @@ $cadenaAgregarQuitar="<a href='agregaCliente.php?SID&id=".$c['idcliente']."&dedo
      <input name="cantidad" onkeyup ="viendostock()" type="text" id="cantidad" value="<?php echo $v['cantidad'] ?>" size="8"></input>  
     <input name="id" type="hidden" id="id" value="<?php echo $v['idproductos'] ?>"></td> 
  <td width="43" align="center"><?php echo $v['Um'] ?></td> 
- <td width="136" align="center" style="background-color: red;"><?php echo $v['precio'].$v['pre'] ?></td>
+     <?#mostrar el precio fijo o el calculado !!
+      if ($v['pre']!="") {
+          ?> 
+        <td width="136" align="center" style="background-color: red;"><?php echo $v['pre'] ?></td>
+     <?
+      }  else {
+            ?>
+      <td width="136" align="center" style="background-color: red;"><?php echo $v['precio']?></td>          
+                <?
+      }
+ ?>
+ 
  <td width="100" align="center"><?php echo ($v['precio']*$v['cantidad']) ?></td> 
  <td align="center">
      <a href="borracar.php?id=<?=$v['idproductos']?>&dedon=1">
