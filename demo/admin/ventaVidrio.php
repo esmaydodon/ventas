@@ -35,7 +35,13 @@ pais = document.autoSumForm1.cortadoInstalado[document.autoSumForm1.cortadoInsta
 //pais2 = document.autoSumForm1.pais2[document.autoSumForm1.pais2.selectedIndex].value
 //miro a ver si el pais est? definido
 if (pais != 0) {
-document.autoSumForm1.precio2.value=document.autoSumForm1.cortadoInstalado.value*document.autoSumForm1.txtmedidas.value
+var mi_numero; 
+mi_numero =document.autoSumForm1.cortadoInstalado.value*document.autoSumForm1.txtmedidas.value
+mi_numero=mi_numero*100;
+mi_numero=Math.floor(mi_numero);
+mi_numero=mi_numero/100;
+
+document.autoSumForm1.precio2.value=mi_numero
 //alert(document.autoSumForm1.pais);	
 }
 // if(pais2 != 0) {document.autoSumForm1.precio2.value=document.autoSumForm1.pais2.value*document.autoSumForm1.txtmedidas.value
