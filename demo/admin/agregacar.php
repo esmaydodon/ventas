@@ -43,6 +43,7 @@ $row2=mysql_fetch_array($qry2);
                         'idproductos'=>$id,
 						'cantidad'=>$cantidad,
 						'idproductos'=>$id,
+                                                 'pre'=>$pre,
 						'stock'=>$row2['Cantidad_producto'],
 						'descripcion_producto'=>$row2['descripcion_producto'], 
 						'precio'=>$row2['precio']
@@ -56,6 +57,13 @@ $_SESSION['carro']=$carro;
 //PARA EL CHECKBOX END
 $qry=dime("select * from productos where  idproductos='".$id."'"); 
 $row=mysql_fetch_array($qry); 
+//para la Unidad de Medida
+$unidadM=dime("select p.idproductos,um.nombre_unidad_medida 
+from productos p inner join unidad_de_medidas um on
+p.unidad_medida=um.idunidad_de_medidas 
+where  idproductos='".$id."'");
+$rowUnidadM=mysql_fetch_array($unidadM);
+//para unidad de medida End
 //Si ya hemos introducido algún 
 //producto en el carro lo 
 //tendremos guardado temporalmente 
@@ -99,6 +107,7 @@ $carro[md5($id)]=array('identificador'=>md5($id),
 						'cantidad'=>$cantidad,
 						'idproductos'=>$id,
 						'stock'=>$row['Cantidad_producto'],
+						'Um'=>$rowUnidadM['nombre_unidad_medida'],
                                                 'pre'=>$pre,
 						'descripcion_producto'=>$row['descripcion_producto'], 
 						'precio'=>$row['precio']
@@ -127,9 +136,12 @@ $_SESSION['carro']=$carro;
 //conviene escribirla siempre. 
 if (!isset($dedonde)) {
     header("Location:catalogo.php?".SID); 
-}elseif ($dedonde="VendiendoVidrio") {
+}elseif ($dedonde=="VendiendoVidrio") {
         header("Location:ventaVidrio.php?".SID);  
-    } else{
+    }elseif ($dedonde=="1") {
+    header("Location:vender.php?".SID);    
+    }
+    else{
     header("Location:vender.php?".SID);  
 }
 

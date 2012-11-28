@@ -55,8 +55,10 @@ document.autoSumForm1.precio2.value=mi_numero
 <body>
   <?   foreach($carro as $k => $v){// no olvidar ver como inicializamos la variabl carro si no noca rga fdrmulario 
       // para luego introducir el formuklarioo con el cual cree la session variable dedlarada 
-      //en linea 9 ?>
-     <form name="autoSumForm1" method="post" action="agregacar.php?<?php echo SID ?>" id="a<?php echo $v['identificador'] ?>"> 
+      //en linea 9 }// para luego introducir el formuklarioo con el cual cree la session variable dedlarada 
+      //en linea 9 - line 50     
+  }?>
+     <form name="autoSumForm1" method="post" action="agregacar.php"> 
 
 <?php
 $idp=$_GET["idproducto"];// idproducto que  escojo para ingresarla a la sesion 
@@ -120,7 +122,6 @@ $cadenaAgregarQuitar="<td><a href='borracar.php?SID&id=".$row['idproductos']."'>
         
 ?>
          </form>
-    <? }// para luego introducir el formuklarioo con el cual cree la session variable dedlarada 
-      //en linea 9 - line 50?>
+     
 </body>
 </html>

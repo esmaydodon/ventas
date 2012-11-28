@@ -50,7 +50,7 @@ p.tipos_de_productos_idtipos_de_productos=tp.idtipos_de_productos WHERE p.codigo
             $cadena = ereg_replace( "([     ]+)","%20",$filas['ruta_img1']);
 				#qui meto el if y variables cadena
 if(!$carro || !isset($carro[md5($filas['idproductos'])]['identificador']) || $carro[md5($filas['idproductos'])]['identificador']!= md5($filas['idproductos'])){ 
-$cadenaAgregarQuitar="<td><a href='agregacar.php?id=".$filas['idproductos']."'>
+$cadenaAgregarQuitar="<td><a href='agregacar.php?id=".$filas['idproductos']."&dedonde=VendiendoVidrio'>
 <img src='../imagenes/productonoagregado.gif' border='0' title='Agregar al Carrito'></a>
  </td>";
 		}else{

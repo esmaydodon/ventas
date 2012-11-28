@@ -4,6 +4,7 @@
  * http://kuraka.net 
  * 
  * Julio 2012 - Actualizado por NewtechPeru.com (http://NewtechPeru.com)
+ * 27 Noviembre - 2012 - Actualizado por Kuraka.net - marlonmq
  */
 session_start(); 
 $carro=$_SESSION['carro']; 
@@ -206,13 +207,14 @@ $cadenaAgregarQuitar="<a href='agregaCliente.php?SID&id=".$c['idcliente']."&dedo
  $contador++; 
  ?> 
  <form name="frmagregarcarro" method="post" action="agregacar.php?<?php echo SID ?>" id="a<?php echo $v['identificador'] ?>"> 
- <tr bgcolor="<?php echo $color[$contador%2]; ?>" class='prod'> 
- <td><div class="stock"><b><?php echo ($v['stock']-$v['cantidad']) ?></b></div>
+ <tr bgcolor="<?php echo $color[$contador%2]; ?>" class='prod'>
+ <td><?php echo $v['descripcion_producto'] ?></td> 
+  <td><div class="stock"><b><?php echo ($v['stock']-$v['cantidad']) ?></b></div>
      <input type="hidden" value="1" name="dedoc"></input>
+        <input name="pre"  type="hidden" id="pre" value="<?php echo $v['pre'] ?>" size="8"></input>  
      <input name="cantidad" onkeyup ="viendostock()" type="text" id="cantidad" value="<?php echo $v['cantidad'] ?>" size="8"></input>  
     <input name="id" type="hidden" id="id" value="<?php echo $v['idproductos'] ?>"></td> 
- <td><?php echo $v['descripcion_producto'] ?></td> 
- <td width="43" align="center"><?php echo $v['idproductos'] ?></td> 
+ <td width="43" align="center"><?php echo $v['Um'] ?></td> 
  <td width="136" align="center" style="background-color: red;"><?php echo $v['precio'].$v['pre'] ?></td>
  <td width="100" align="center"><?php echo ($v['precio']*$v['cantidad']) ?></td> 
  <td align="center">
