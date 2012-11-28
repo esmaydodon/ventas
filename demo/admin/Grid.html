@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>jqGrid Ejemplo 1: Cargar datos de una tabla MySql </title>
+        <!-- Hojas de estilo -->
+		<!-- la primera es la hoja de estilos de algun tema de jQuery UI -->
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/jquery-ui-1.8.21.custom.css" />
+		<!-- la segunda hoja la utiliza el grid-->
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/ui.jqgrid.css" />
+        <!-- Archivos javascript -->
+		<!-- el primero es la libreria jQuery-->
+        <script src="../js/jquery-1.7.2.min.js" type="text/javascript"></script>
+        <!-- la siguiente es jQuery UI -->
+		<script src="../js/jquery-ui-1.8.21.custom.min.js" type="text/javascript"></script>
+        <!-- posteriormente se incluye el archivo de idioma de jqGrid -->
+		<script src="../js/i18n/grid.locale-es.js" type="text/javascript"></script>
+        <!-- al final incluimos el archivo jqGrid -->
+		<script src="../js/jquery.jqGrid.min.js" type="text/javascript"></script>
+        
+        <!--
+        
+        url: Es la ruta del archivo PHP que procesara la petición ajax
+datatype: Indica el tipo de información que regresara el servidor
+mytype: Indica como se hará la petición ajax, “POST” o “GET”
+colNames: Es un arreglo con los titulos de las columnas del grid
+colModel: Es un arreglo que describe las opciones de cada columna, algunas opciones son las siguientes
+name: Nombre de la columna
+index: Es el nombre que se envía al servidor cuando se ordenan los datos
+width: Indica el ancho de la columna
+resizable: Indica si el ancho de la columna se puede redimensionar, los posible valores son true o false
+align: Alineación del texto, los posible valores son: left, center, right
+pager: Indica que elemento HTML que sera la barra de paginacion, se utiliza su atributo id
+rowNum: Indica cuantas filas se mostraran por pagina
+sortname: Indica el campo por el cual se ordenaran los datos
+sortorder: Indica si se ordenaran de forma ascendente “asc” o descendente “desc”
+viewrecords: Indica se se mostrara el numero de registros que tiene la tabla, puede ser true o false
+captio: Indica el titulo del grid
+        
+        -->
+         
+        <script type="text/javascript">
+            $(document).ready(function(){
+           jQuery("#tblclientes").jqGrid({
+                    url:'clientes.php?q=2&nd='+new Date().getTime(),
+                    datatype: 'json',
+                    mtype: 'POST',
+                    colNames:['ID','NOMBRE CLIENTE','DNI','NOMBRE COMERCIAL','RUC', 'DIRECCION','TELEFONO 1','TELEFONO 2','EMAIL','WEB'],
+                    colModel:[
+                        {name:'idcliente', index:'idcliente', width:50, resizable:false, align:"center"},
+                 {name:'nombre_cliente', index:'nombre_cliente', width:160,resizable:false, sortable:true},
+                        {name:'dni_cliente', index:'dni_cliente', width:100,resizable:true},
+                        {name:'nombre_comercial_cliente', index:'nombre_comercial_cliente', width:70},
+                        {name:'ruc', index:'ruc', width:50, resizable:true},
+                        {name:'direccion_cliente', index:'direccion_cliente', width:100,resizable:true, sortable:true},
+                        {name:'telefono1_cliente', index:'telefono1_cliente', width:100,resizable:true, sortable:true},
+                        {name:'telefono2_cliente', index:'telefono2_cliente', width:100,resizable:true, sortable:true},
+                        {name:'email_cliente', index:'email_cliente', width:100,resizable:true, sortable:true},
+                        {name:'web_cliente', index:'web_cliente', width:100,resizable:true, sortable:true}
+                    ],
+                    pager: '#paginacion',
+                    rowNum:10,
+                    rowList:[15,30],
+                    sortname: 'idcliente',
+                    sortorder: 'asc',
+                    viewrecords: true,
+                   // multiselect:true,
+                    caption: 'CLIENTES'
+                   
+                });        
+                
+                //funciones de jqgrid
+        jQuery("#tblclientes").jqGrid('navGrid','#paginacion',{add:false,edit:false,del:false});
+        
+        
+            /*
+             *para select
+               jQuery("#tblclientes").jqGrid('navGrid','#paginacion',{add:false,del:false,edit:false,position:'right'});
+              jQuery("#m1").click( function() {
+              var s; s = jQuery("#tblclientes").jqGrid('getGridParam','selarrrow'); alert(s); });
+              jQuery("#m1s").click( function() { jQuery("#tblclientes").jqGrid('setSelection',"3"); });  
+             **/
+            
+            /*PARA BUSCAR*/
+            jQuery("#bigset").jqGrid({ 
+            url:'bigset.php', 
+            datatype: "json", 
+            height: 255, 
+            colNames:['Index','Name', 'Code'], 
+            colModel:[ {name:'item_id',index:'item_id', width:65}, 
+                {name:'item',index:'item', width:150}, 
+                {name:'item_cd',index:'item_cd', width:100} ],
+            rowNum:12, // rowList:[10,20,30],
+            mtype: "POST", 
+            pager: jQuery('#pagerb'), 
+            pgbuttons: false, 
+            pgtext: false, 
+            pginput:false, 
+            sortname: 'item_id', 
+            viewrecords: true, 
+            sortorder: "asc"
+        });
+        var timeoutHnd; var flAuto = false;
+        
+        function doSearch(ev){ if(!flAuto) return;// var elem = ev.target||ev.srcElement;
+        if(timeoutHnd) 
+            clearTimeout(timeoutHnd);
+        timeoutHnd = setTimeout(gridReload,500) }
+    function gridReload(){ 
+        var nm_mask = jQuery("#item_nm").val();
+        var cd_mask = jQuery("#search_cd").val(); 
+        jQuery("#bigset").jqGrid('setGridParam',{url:"bigset.php?nm_mask="+nm_mask+"&cd_mask="+cd_mask,page:1}).trigger("reloadGrid");
+            }
+          function enableAutosubmit(state){ 
+              flAuto = state; jQuery("#submitButton").attr("disabled",state); }  
+            /*PAif(timeoutHnd) clearTimeout(timeoutHnd) timeoutHnd = setTimeout(gridReload,500) }RA BUSCAR END*/
+           
+       
+   });
+           
+        </script>
+
+    </head>
+    <body>
+        <!--para buscar-->
+        <div class="h">Buscar por:</div> 
+        <div> <input type="checkbox" id="autosearch" onclick="enableAutosubmit(this.checked)"> Enable Autosearch <br/> 
+            Code<br /> <input type="text" id="search_cd" onkeydown="doSearch(arguments[0]||event)" /> 
+        </div> 
+        <div> Nombre<br> <input type="text" id="item" onkeydown="doSearch(arguments[0]||event)" /> 
+                <button onclick="gridReload()" id="submitButton" style="margin-left:30px;">Search</button> 
+        </div> <br /> <table id="bigset"></table> <div id="pagerb"></div> <script src="bigset.js" type="text/javascript"> </script>
+        <!--para buscar  END-->
+        <table id="tblclientes"></table>
+        <div id="paginacion"> </div><br/>
+        
+      
+<!--
+        <br/> <a href="javascript:void(0)" id="g1" onclick="alert(jQuery('#tblclientes').jqGrid('getGridParam','url'));">Get url</a> 
+        <br /> <a href="javascript:void(0)" id="g2" onclick="alert(jQuery('#tblclientes').jqGrid('getGridParam','sortname'));">Get Sort Name</a> <br/> 
+        <a href="javascript:void(0)" id="g3" onclick="alert(jQuery('#tblclientes')jqGrid('getGridParam','sortorder'));">Get Sort Order</a> <br/>
+        <a href="javascript:void(0)" id="g4" onclick="alert(jQuery('#tblclientes')jqGrid('getGridParam','selrow'));">Get Selected Row</a> <br /> 
+        <a href="javascript:void(0)" id="g5" onclick="alert(jQuery('#tblclientes')jqGrid('getGridParam','page'));">Get Current Page</a> <br /> 
+        <a href="javascript:void(0)" id="g6" onclick="alert(jQuery('#tblclientes').jqGrid('getGridParam','rowNum'));">Get Number of Rows requested</a> <br /> 
+        <a href="javascript:void(0)" id="g7" onclick="alert('See Multi select rows example');">Get Selected Rows</a> <br /> 
+        <a href="javascript:void(0)" id="g8" onclick="alert(jQuery('#tblclientes').jqGrid('getGridParam','datatype'));">Get Data Type requested</a> <br /> <a href="javascript:void(0)" id="g9" onclick="alert(jQuery('#tblclientes').jqGrid('getGridParam','records'));">Get number of records in Grid</a>
+        
+-->
+<!-- para select 
+    <br>
+<a href="javascript:void(0)" id="m1">Get Selected id's</a> <a href="javascript:void(0)" id="m1s">Select(Unselect) row 13</a>
+-->
+    </body>
+</html>

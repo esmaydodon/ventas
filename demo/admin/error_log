@@ -1,0 +1,140 @@
+[16-Sep-2011 13:17:48] PHP Warning:  include(func/funciones.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kurakane/public_html/incawasi/admin/panel.php on line 54
+[16-Sep-2011 13:17:48] PHP Warning:  include(func/funciones.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kurakane/public_html/incawasi/admin/panel.php on line 54
+[16-Sep-2011 13:17:48] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'func/funciones.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kurakane/public_html/incawasi/admin/panel.php on line 54
+[16-Sep-2011 13:17:48] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kurakane/public_html/incawasi/admin/panel.php on line 60
+[16-Sep-2011 14:48:48] PHP Warning:  include(func/funciones.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kurakane/public_html/incawasi/admin/panel.php on line 54
+[16-Sep-2011 14:48:48] PHP Warning:  include(func/funciones.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kurakane/public_html/incawasi/admin/panel.php on line 54
+[16-Sep-2011 14:48:48] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'func/funciones.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kurakane/public_html/incawasi/admin/panel.php on line 54
+[16-Sep-2011 14:48:48] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kurakane/public_html/incawasi/admin/panel.php on line 60
+[16-Sep-2011 14:48:48] PHP Warning:  include(func/funciones.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kurakane/public_html/incawasi/admin/panel.php on line 54
+[16-Sep-2011 14:48:48] PHP Warning:  include(func/funciones.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kurakane/public_html/incawasi/admin/panel.php on line 54
+[16-Sep-2011 14:48:48] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'func/funciones.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kurakane/public_html/incawasi/admin/panel.php on line 54
+[16-Sep-2011 14:48:48] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kurakane/public_html/incawasi/admin/panel.php on line 60
+[30-Sep-2011 09:52:54] PHP Warning:  include(func/funciones.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kurakane/public_html/incawasi/admin/panel.php on line 55
+[30-Sep-2011 09:52:54] PHP Warning:  include(func/funciones.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kurakane/public_html/incawasi/admin/panel.php on line 55
+[30-Sep-2011 09:52:54] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'func/funciones.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kurakane/public_html/incawasi/admin/panel.php on line 55
+[30-Sep-2011 09:52:54] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kurakane/public_html/incawasi/admin/panel.php on line 61
+[30-Sep-2011 09:53:05] PHP Warning:  include(func/funciones.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kurakane/public_html/incawasi/admin/panel.php on line 55
+[30-Sep-2011 09:53:05] PHP Warning:  include(func/funciones.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kurakane/public_html/incawasi/admin/panel.php on line 55
+[30-Sep-2011 09:53:05] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'func/funciones.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kurakane/public_html/incawasi/admin/panel.php on line 55
+[30-Sep-2011 09:53:05] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kurakane/public_html/incawasi/admin/panel.php on line 61
+[03-Oct-2011 21:52:16] PHP Warning:  include(func/funciones.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kurakane/public_html/incawasi/admin/panel.php on line 55
+[03-Oct-2011 21:52:16] PHP Warning:  include(func/funciones.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kurakane/public_html/incawasi/admin/panel.php on line 55
+[03-Oct-2011 21:52:16] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'func/funciones.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kurakane/public_html/incawasi/admin/panel.php on line 55
+[03-Oct-2011 21:52:16] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kurakane/public_html/incawasi/admin/panel.php on line 61
+[21-Oct-2011 20:20:58] PHP Warning:  include(func/funciones.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kurakane/public_html/incawasi/admin/carrito.php on line 6
+[21-Oct-2011 20:20:58] PHP Warning:  include(func/funciones.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kurakane/public_html/incawasi/admin/carrito.php on line 6
+[21-Oct-2011 20:20:58] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'func/funciones.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kurakane/public_html/incawasi/admin/carrito.php on line 6
+[21-Oct-2011 20:20:58] PHP Fatal error:  Call to undefined function  dime() in /home/kurakane/public_html/incawasi/admin/carrito.php on line 100
+[26-Oct-2011 11:38:28] PHP Warning:  include(func/funciones.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kurakane/public_html/incawasi/admin/carrito.php on line 6
+[26-Oct-2011 11:38:28] PHP Warning:  include(func/funciones.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/kurakane/public_html/incawasi/admin/carrito.php on line 6
+[26-Oct-2011 11:38:28] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'func/funciones.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kurakane/public_html/incawasi/admin/carrito.php on line 6
+[26-Oct-2011 11:38:28] PHP Fatal error:  Call to undefined function  dime() in /home/kurakane/public_html/incawasi/admin/carrito.php on line 100
+[07-Nov-2011 16:30:12] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kurakane/public_html/incawasi/admin/atenderCompra.php on line 20
+[07-Nov-2011 16:32:36] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kurakane/public_html/incawasi/admin/atenderCompra.php on line 20
+[23-Dec-2011 16:23:08] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 180
+[23-Dec-2011 17:24:06] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 165
+[23-Dec-2011 17:24:06] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 169
+[23-Dec-2011 17:24:29] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 169
+[23-Dec-2011 17:26:50] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 176
+[23-Dec-2011 17:26:50] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 180
+[23-Dec-2011 17:27:14] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 165
+[23-Dec-2011 17:27:14] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 169
+[24-Dec-2011 20:43:40] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 180
+[24-Dec-2011 20:45:07] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 165
+[24-Dec-2011 20:45:07] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 169
+[24-Dec-2011 20:45:13] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 176
+[24-Dec-2011 20:45:13] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 180
+[24-Dec-2011 20:45:20] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 176
+[24-Dec-2011 20:45:20] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 180
+[24-Dec-2011 20:45:32] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 95
+[24-Dec-2011 20:45:32] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 176
+[03-Jan-2012 08:30:29] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 176
+[03-Jan-2012 08:30:29] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 180
+[03-Jan-2012 08:30:51] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 176
+[03-Jan-2012 08:30:51] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 180
+[03-Jan-2012 08:31:29] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 95
+[03-Jan-2012 08:31:29] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 176
+[03-Jan-2012 08:31:51] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 95
+[03-Jan-2012 08:31:51] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 176
+[03-Jan-2012 08:33:03] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 165
+[03-Jan-2012 08:33:03] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 169
+[03-Jan-2012 08:33:18] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/registrandoContrato.php on line 21
+[03-Jan-2012 08:33:23] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 165
+[03-Jan-2012 08:33:23] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 169
+[03-Jan-2012 08:33:46] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito2.php on line 158
+[03-Jan-2012 08:33:46] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito2.php on line 162
+[03-Jan-2012 08:33:52] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/registrandoBoleta.php on line 20
+[03-Jan-2012 08:34:35] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 180
+[03-Jan-2012 08:34:44] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/registrandoFactura.php on line 20
+[03-Jan-2012 08:34:51] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito2.php on line 162
+[03-Jan-2012 08:37:30] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 165
+[03-Jan-2012 08:37:30] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 169
+[03-Jan-2012 08:41:40] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 165
+[03-Jan-2012 08:41:40] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 169
+[03-Jan-2012 21:15:39] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 165
+[03-Jan-2012 21:15:39] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 169
+[03-Jan-2012 21:24:48] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 165
+[03-Jan-2012 21:24:48] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito3.php on line 169
+[03-Jan-2012 21:26:11] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 180
+[04-Jan-2012 10:59:47] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito2.php on line 158
+[04-Jan-2012 10:59:47] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito2.php on line 162
+[04-Jan-2012 11:00:11] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito2.php on line 94
+[04-Jan-2012 11:00:11] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito2.php on line 158
+[04-Jan-2012 11:00:26] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito2.php on line 94
+[04-Jan-2012 11:00:26] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito2.php on line 158
+[04-Jan-2012 11:00:49] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito2.php on line 94
+[04-Jan-2012 11:00:49] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito2.php on line 158
+[04-Jan-2012 11:01:30] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito2.php on line 94
+[04-Jan-2012 11:01:30] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito2.php on line 158
+[04-Jan-2012 11:01:49] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito2.php on line 94
+[04-Jan-2012 11:01:49] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito2.php on line 158
+[04-Jan-2012 11:02:26] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito2.php on line 158
+[04-Jan-2012 11:02:26] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito2.php on line 162
+[21-Jan-2012 18:24:07] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 176
+[21-Jan-2012 18:24:07] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 180
+[26-Jan-2012 22:34:31] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 180
+[19-Jun-2012 12:41:49] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kurakane/public_html/syg/admin/consultarCuentaAdmin.php on line 5
+[19-Jun-2012 12:41:52] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/kurakane/public_html/syg/admin/modificarCuentaAdmin.php on line 14
+[19-Jun-2012 12:43:32] PHP Warning:  Invalid argument supplied for foreach() in /home/kurakane/public_html/syg/admin/vercarrito.php on line 180
+[06-Jul-2012 15:56:01 UTC] PHP Fatal error:  Cannot redeclare mandarelmail() (previously declared in /home/caxavent/public_html/demo/admin/mandarmails.php:91) in /home/caxavent/public_html/demo/admin/mandarmails.php on line 91
+[06-Jul-2012 15:57:39 UTC] PHP Fatal error:  Cannot redeclare mandarelmail() (previously declared in /home/caxavent/public_html/demo/admin/mandarmails.php:91) in /home/caxavent/public_html/demo/admin/mandarmails.php on line 91
+[06-Jul-2012 16:06:02 UTC] PHP Fatal error:  Cannot redeclare mandarelmail() (previously declared in /home/caxavent/public_html/demo/admin/mandarmails.php:118) in /home/caxavent/public_html/demo/admin/mandarmails.php on line 118
+[06-Jul-2012 16:06:41 UTC] PHP Fatal error:  Cannot redeclare mandarelmail() (previously declared in /home/caxavent/public_html/demo/admin/mandarmails.php:118) in /home/caxavent/public_html/demo/admin/mandarmails.php on line 118
+[16-Jul-2012 23:32:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vercarrito.php on line 180
+[16-Jul-2012 23:32:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vercarrito.php on line 180
+[20-Jul-2012 00:26:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 198
+[20-Jul-2012 00:26:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 274
+[20-Jul-2012 00:26:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 278
+[20-Jul-2012 00:27:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 198
+[20-Jul-2012 00:27:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 274
+[20-Jul-2012 00:27:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 278
+[20-Jul-2012 00:27:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 198
+[20-Jul-2012 00:27:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 278
+[24-Jul-2012 14:15:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 198
+[24-Jul-2012 14:15:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 274
+[24-Jul-2012 14:15:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 278
+[24-Jul-2012 14:47:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 198
+[24-Jul-2012 14:47:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 274
+[24-Jul-2012 14:47:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 278
+[26-Jul-2012 00:53:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 202
+[26-Jul-2012 00:53:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 283
+[26-Jul-2012 00:53:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 287
+[26-Jul-2012 00:54:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 202
+[26-Jul-2012 00:54:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 287
+[27-Jul-2012 23:33:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 202
+[27-Jul-2012 23:33:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 276
+[27-Jul-2012 23:33:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 283
+[27-Jul-2012 23:33:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 287
+[27-Jul-2012 23:33:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 202
+[27-Jul-2012 23:33:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 287
+[02-Aug-2012 23:50:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 202
+[02-Aug-2012 23:50:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 276
+[02-Aug-2012 23:50:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 283
+[02-Aug-2012 23:50:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 287
+[02-Aug-2012 23:50:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 276
+[02-Aug-2012 23:50:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 283
+[04-Aug-2012 16:31:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 202
+[04-Aug-2012 16:31:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 276
+[04-Aug-2012 16:31:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 283
+[04-Aug-2012 16:31:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/caxavent/public_html/demo/admin/vender.php on line 287
