@@ -44,6 +44,7 @@ $row2=mysql_fetch_array($qry2);
 						'cantidad'=>$cantidad,
 						'idproductos'=>$id,
                                                  'pre'=>$pre,
+                                                   'medidas_producto'=>$row['medidas_producto'],
 						'stock'=>$row2['Cantidad_producto'],
 						'descripcion_producto'=>$row2['descripcion_producto'], 
 						'precio'=>$row2['precio']
@@ -109,6 +110,7 @@ $carro[md5($id)]=array('identificador'=>md5($id),
 						'stock'=>$row['Cantidad_producto'],
 						'Um'=>$rowUnidadM['nombre_unidad_medida'],
                                                 'pre'=>$pre,
+						'medidas_producto'=>$row['medidas_producto'], 
 						'descripcion_producto'=>$row['descripcion_producto'], 
 						'precio'=>$row['precio']
 						); 

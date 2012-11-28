@@ -218,11 +218,11 @@ $cadenaAgregarQuitar="<a href='agregaCliente.php?SID&id=".$c['idcliente']."&dedo
      <?#mostrar el precio fijo o el calculado !!
       if ($v['pre']!="") {
           ?> 
-        <td width="136" align="center" style="background-color: red;"><?php echo $v['pre'] ?></td>
+        <td width="136" align="center"  ><?php echo $v['pre'] ?></td>
      <?
       }  else {
             ?>
-      <td width="136" align="center" style="background-color: red;"><?php echo $v['precio']?></td>          
+      <td width="136" align="center"  ><?php echo $v['precio']?></td>          
                 <?
       }
  ?>

@@ -35,9 +35,17 @@ $result = dime($consulta)or die(ovni("Oo.php"));
 $idpago=mysql_insert_id();
 //echo $consulta;
 foreach($carro as $k => $v){
-$NuevaCantidad =($v['stock']-$v['cantidad']);
-$actualizarStok="UPDATE productos SET Cantidad_producto = '$NuevaCantidad' WHERE idproductos =".$v['idproductos'];
+   if ($v['pre']!="") {
+          $NuevaCantidad =($v['medidas_producto']-$v['cantidad']);
+          $actualizarStok="UPDATE productos SET Cantidad_producto = '$NuevaCantidad' WHERE idproductos =".$v['idproductos'];
 $result2 = dime($actualizarStok)or die(ovni("Oo.php"));
+      }  else {            
+      $NuevaCantidad =($v['stock']-$v['cantidad']);
+      $actualizarStok="UPDATE productos SET Cantidad_producto = '$NuevaCantidad' WHERE idproductos =".$v['idproductos'];
+$result2 = dime($actualizarStok)or die(ovni("Oo.php"));
+      }
+
+
 //llenamos datos en detalle de pago
 $monto_pago=($v['cantidad']*$v['precio']);
 $insertardetallepago=dime("INSERT INTO  detalle_de_pago 
